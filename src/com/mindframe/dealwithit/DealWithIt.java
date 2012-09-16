@@ -237,8 +237,7 @@ public class DealWithIt extends Activity {
 					canvas.drawBitmap(currentGlasses.glasses, currentGlasses.pos_x, currentGlasses.dynamic_y, null);
 				}
 			}
-			// Una vez acabe de dibujar las gafas, dibuja el texto y reproduce
-			// el sonido.
+			// Una vez acabe de dibujar las gafas, dibuja el texto y reproduce el sonido.
 			if (!contThread()) {
 				canvas.drawBitmap(dealText, (w_backg - dealText.getWidth()) / 2, h_backg - 100, paint);
 				mp.start();
