@@ -5,6 +5,6 @@
     
     <item android:id="@+id/OptRepeat" android:title="Repetir" android:icon="@drawable/redo" /> 
     <item android:id="@+id/OptAnother" android:title="Seleccionar otra imagen" android:icon="@drawable/photos" />
-     <item android:id="@+id/OptDownload" android:title="Descargar" android:icon="@drawable/download" />
+    z<item android:id="@+id/OptDownload" android:title="Descargar" android:icon="@drawable/download" />
     
 </menu>
