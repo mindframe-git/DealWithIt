@@ -270,7 +270,7 @@ public class DealWithIt extends Activity {
 		public void animateGlasses() {
 			Log.d("Metodo:", "animateGlasses");
 			// Recorre la lista de gafas, aumentando dynamic_y en SPEED puntos
-			// hasta llegar a su posici√≥n final
+			// hasta llegar a su posición final
 			for (Glasses glasses : glassesList) {
 				currentGlasses = glasses;
 				if (currentGlasses != null) {
